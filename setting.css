@@ -1,0 +1,47 @@
+.setting-head {
+  display: flex;
+}
+.setting {
+  margin-left: 20px;
+}
+
+.setting-menu {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.setting-list {
+  margin-top: 40px;
+  display: flex;
+}
+
+.setting-item {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.version-version {
+  margin-left: 14px;
+  font-size: 20px;
+}
+
+.setting-list i {
+  font-size: 20px;
+}
+
+.setting-version i {
+  font-size: 20px;
+}
+
+.setting-version {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.version {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-right: 20px;
+}

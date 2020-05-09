@@ -1,0 +1,94 @@
+@import "friend.css";
+@import "setting.css";
+@import "find.css";
+@import "more.css";
+@import "chat.css";
+@import "nav.css";
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+.friend {
+  margin: 20px;
+}
+
+.clock {
+  font-size: 16px;
+}
+
+.headline {
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  align-items: center;
+  background-color: white;
+  z-index: 2;
+}
+
+.head {
+  margin-top: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.friend .m-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+}
+
+.friend .friend__friend {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__name {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.friend .friend__nick {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+
+.friend .friend__profile {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+main {
+  animation: fadeIn 0.5s;
+}

@@ -1,0 +1,40 @@
+.find {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.find-list {
+  margin-bottom: 40px;
+}
+
+.find-list i {
+  font-size: 30px;
+}
+
+.find-name {
+  font-size: 14px;
+}
+
+.find-cut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.added-friend {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.added-friend i {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid yellow;
+  background-color: yellow;
+  border-radius: 20%;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Clone Season2</title>
+    <script
+      src="https://kit.fontawesome.com/99f48e46c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+2:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+
+  <body>
+    <div class="head-wrapper">
+      <ul class="headline">
+        <div class="cut">
+          <span class="clock">time</span>
+        </div>
+        <div class="cut">
+          <i class="far fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="percent">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </ul>
+    </div>
+    <header class="head">
+      <div class="cut">
+        <h1 class="friends">Chats</h1>
+      </div>
+      <div class="cut">
+        <div class="selector">
+          <i class="fas fa-search"></i>
+          <a href="setting.html" class="setting-link">
+            <i class="fas fa-cog"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="friend">
+      <header class="friend__profile">
+        <div class="friend__friend">
+          <div class="friend__cut">
+            <img src="image/avatar.jpg" class="m-avatar" />
+          </div>
+          <a href="chat.html">
+            <div class="friend__cut">
+              <span class="friend__name">이지원</span>
+              <span class="friend__nick">중국역병 보균자</span>
+            </div>
+          </a>
+        </div>
+      </header>
+    </main>
+    <nav class="selector__nav">
+      <ul class="nav">
+        <li class="nav-list">
+          <a href="friend.html" class="nav-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">
+            <i class="far fa-comment"></i>
+            <div class="nav__badge">8</div>
+          </a>
+        </li>
+        <li class="nav-list">
+          <a href="find.html" class="nav-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav-list">
+          <a href="more.html" class="nav-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+  <script src="clock.js"></script>
+  <script src="date.js"></script>
+  <script src="today.js"></script>
+</html>

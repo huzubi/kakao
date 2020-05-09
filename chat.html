@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Clone Season2</title>
+    <script
+      src="https://kit.fontawesome.com/99f48e46c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+2:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <ul class="headline">
+      <div class="cut">
+        <span class="clock">time</span>
+      </div>
+      <div class="cut">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="percent">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </ul>
+    <ul class="headline-chat">
+      <li class="best-friend">
+        <a href="index.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <span class="friends">Best Friend</span>
+      </li>
+      <li class="selector">
+        <i class="fas fa-search"></i>
+        <a href="setting.html" class="setting-link">
+          <i class="fas fa-cog"></i>
+        </a>
+      </li>
+    </ul>
+    <main class="chat-container">
+      <div class="date-position">
+        <span class="date"></span>
+      </div>
+      <ul class="chat">
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">나는 이태헌!</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">나는 사실 고자!</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">고자인데 고자라고 했을뿐...</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">ㅡ,.ㅡ</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">ㅜ.,ㅠ</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+        <li class="received-list">
+          <img src="image/unknown.jpg" class="avatar-ss" />
+          <div class="cut">
+            <div class="received-bubble">
+              <span class="received-message">미움미움</span>
+            </div>
+            <span class="sender">unknown</span>
+          </div>
+        </li>
+        <li class="send-list">
+          <div class="send-bubble">
+            <span class="sent-message">왜</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat-nav">
+      
+        <input class="chat-input" type="text" placeholder="Send message" />
+        <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+  </body>
+  <script src="clock.js"></script>
+    <script src="date.js"></script>
+    <script src="today.js"></script>
+</html>

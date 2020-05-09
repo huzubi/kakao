@@ -1,0 +1,44 @@
+.friend .l-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 35%;
+}
+
+.friend .s-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+}
+.friend .addedFriend {
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.friend .friend-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__friend-friends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friend .friend__music-contents {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__music {
+  font-size: 12px;
+}
+
+.friend .friend__music-contents i {
+  font-size: 12px;
+}
